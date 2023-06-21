@@ -1,0 +1,82 @@
+Value ONT (\d+)
+Value Profile (\S+)
+Value Serial (\S+)
+Value ManufacturingSerial (\S+)
+Value RegistrationID (\S*)
+Value SubscriberID (\S*)
+Value Description (.*)
+Value VendorID (\S*)
+Value PONPort (\S+)
+Value PWE3Profile (\S+)
+Value LowNERxPwr ([-\d]+ dBm)
+Value HighNERxPwr ([-\d]+ dBm)
+Value ONTSDBERrateUS (\d+)
+Value PONPortSDBERRateDS (\d+)
+Value Vendor (\S+)
+Value Model (\S+)
+Value ProductCode (\S+)
+Value CLEI (\S+)
+Value ONUMAC (\S+)
+Value MTAMAC (\S+)
+Value Uptime (.*)
+Value OpticalSignalLevel ([-\d]+ dBm)
+Value ResponseTime (\d+ usec)
+Value TransmitOpticalLvl ([-\d]+ dBm)
+Value ReceiveLevelatOLT ([-\d]+ dBm)
+Value RangeLength (\d+ meters)
+Value SDBERRateDS (\d+)
+Value SDBERRateUS (\d+)
+Value CurrentSWversion (.* \(committed\))
+Value AlternateSWversion (.*)
+Value RGConfigFileVers (\d+)
+Value VOIPConfigFileVers (\d+)
+Value SDBERRateUSCurrent (\d+)
+Value SDBERRateDSCurrent (\d+)
+Value BatteryPresentAlarm (\S+)
+Value AdminStatus (\S+)
+Value OperationalStatus (\S+)
+Value AdditionalStatusInfo (.*)
+Value PSEMaximumPowerBudget (\S+)
+Value PoeHighPowerMode (\S+)
+
+Start
+  ^ONT\s*:\s*${ONT}
+  ^Profile\s*:\s*${Profile}
+  ^Serial #\s*:\s*${Serial}
+  ^Manufacturing Serial #\s*:\s*${ManufacturingSerial}
+  ^Registration ID\s*:\s*${RegistrationID}
+  ^Subscriber ID\s*:\s*${SubscriberID}
+  ^Description\s*:\s*${Description}
+  ^Vendor ID\s*:\s*${VendorID}
+  ^PON port\s*:\s*${PONPort}
+  ^PWE3 profile\s*:\s*${PWE3Profile}
+  ^\s*Low NE Rx Pwr\s*:\s*${LowNERxPwr}
+  ^\s*High NE Rx Pwr\s*:\s*${HighNERxPwr}
+  ^\s*ONT SDBER rate US\s*:\s*${ONTSDBERrateUS}
+  ^\s*PON port SDBER DS rate\s*:\s*${PONPortSDBERRateDS}
+  ^\s*Vendor\s*:\s*${Vendor}
+  ^\s*Model\s*:\s*${Model}
+  ^\s*Product Code\s*:\s*${ProductCode}
+  ^\s*CLEI\s*:\s*${CLEI}
+  ^\s*ONU MAC\s*:\s*${ONUMAC}
+  ^\s*MTA MAC\s*:\s*${MTAMAC}
+  ^\s*Uptime\s*:\s*${Uptime}
+  ^\s*Optical Signal Level\s*:\s*${OpticalSignalLevel}
+  ^\s*Response Time\s*:\s*${ResponseTime}
+  ^\s*Transmit Optical Lvl\s*:\s*${TransmitOpticalLvl}
+  ^\s*Receive Level at OLT\s*:\s*${ReceiveLevelatOLT}
+  ^\s*Range Length\s*:\s*${RangeLength}
+  ^\s*SDBER Rate DS \(10\^-n\) :\s*${SDBERRateDS}
+  ^\s*SDBER Rate US \(10\^-n\) :\s*${SDBERRateUS}
+  ^\s*Current SW version\s*:\s*${CurrentSWversion}
+  ^\s*Alternate SW version\s*:\s*${AlternateSWversion}
+  ^\s*RG Config File Vers\s*:\s*${RGConfigFileVers}
+  ^\s*VOIP Config File Vers\s*:\s*${VOIPConfigFileVers}
+  ^SDBER Rate US Current\s*:\s*${SDBERRateUSCurrent}
+  ^SDBER Rate DS Current\s*:\s*${SDBERRateDSCurrent}
+  ^Battery present alarm\s*:\s*${BatteryPresentAlarm}
+  ^Admin status\s*:\s*${AdminStatus}
+  ^Operational status\s*:\s*${OperationalStatus}
+  ^Additional status info\s*:\s*${AdditionalStatusInfo}
+  ^PSE maximum power budget\s*:\s*${PSEMaximumPowerBudget}
+  ^Poe high power mode\s*:\s*${PoeHighPowerMode} -> Record
