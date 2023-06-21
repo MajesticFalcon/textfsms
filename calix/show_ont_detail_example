@@ -1,0 +1,94 @@
+
+ONT                     : REDACTED
+Profile                 : 844G
+Serial #                : REDACTED
+Manufacturing Serial #  : REDACTED
+Registration ID         : REDACTED
+Subscriber ID           : REDACTED
+Description             : REDACTED
+Vendor ID               : 
+PON port                : 19/11
+PWE3 profile            : system-default
+Alarm Thresholds
+  Low NE Rx Pwr         : -30 dBm
+  High NE Rx Pwr        : -7 dBm
+  ONT SDBER rate US     : 5
+  PON port SDBER DS rate: 5
+ONT information
+  Vendor                : CXNK
+  Model                 : 844G-1
+  Product Code          : P0
+  CLEI                  : REDACTED
+  ONU MAC               : 11-11-11-11-11-11
+  MTA MAC               : 11-11-11-11-11-11
+  Uptime                : 4 days, 12:09:39
+
+  Optical Signal Level  : -15 dBm
+  Response Time         : 35 usec
+  Transmit Optical Lvl  : 2 dBm
+  Receive Level at OLT  : -17.300 dBm
+  Range Length          : 7989 meters
+  SDBER Rate DS (10^-n) : 9
+  SDBER Rate US (10^-n) : 9
+  Current SW version    : 12.2.12.8.4 (committed)
+  Alternate SW version  : 12.2.10.0.54
+  RG Config File Vers   : 0             
+  VOIP Config File Vers : 0             
+PSE Management Ownership  : (unsupported)
+PSE Available Power Budget: (unsupported)
+PSE Aggregate Output Power: (unsupported)
+SDBER Rate US Current   : 9
+SDBER Rate DS Current   : 9
+Battery present alarm   : enabled
+Admin status            : enabled
+Operational status      : enabled
+Additional status info  : child provisioned, present
+PSE maximum power budget: 30 watts(unsupported)
+Poe high power mode     : disabled(unsupported)
+
+ONT                     : REDACTED
+Profile                 : 844G
+Serial #                : REDACTED
+Manufacturing Serial #  : REDACTED
+Registration ID         : REDACTED
+Subscriber ID           : REDACTED
+Description             : REDACTED
+Vendor ID               : 
+PON port                : 19/11
+PWE3 profile            : system-default
+Alarm Thresholds
+  Low NE Rx Pwr         : -30 dBm
+  High NE Rx Pwr        : -7 dBm
+  ONT SDBER rate US     : 5
+  PON port SDBER DS rate: 5
+ONT information
+  Vendor                : CXNK
+  Model                 : 844G-1
+  Product Code          : P0
+  CLEI                  : REDACTED
+  ONU MAC               : 11-11-11-11-11-11
+  MTA MAC               : 11-11-11-11-11-11
+  Uptime                : 4 days, 12:09:39
+
+  Optical Signal Level  : -15 dBm
+  Response Time         : 35 usec
+  Transmit Optical Lvl  : 2 dBm
+  Receive Level at OLT  : -17.300 dBm
+  Range Length          : 7989 meters
+  SDBER Rate DS (10^-n) : 9
+  SDBER Rate US (10^-n) : 9
+  Current SW version    : 12.2.12.8.4 (committed)
+  Alternate SW version  : 12.2.10.0.54
+  RG Config File Vers   : 0             
+  VOIP Config File Vers : 0             
+PSE Management Ownership  : (unsupported)
+PSE Available Power Budget: (unsupported)
+PSE Aggregate Output Power: (unsupported)
+SDBER Rate US Current   : 9
+SDBER Rate DS Current   : 9
+Battery present alarm   : enabled
+Admin status            : enabled
+Operational status      : enabled
+Additional status info  : child provisioned, present
+PSE maximum power budget: 30 watts(unsupported)
+Poe high power mode     : disabled(unsupported)
